@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Nokriya.com</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="content">We see by the end of Act I that Martha wants two things: a child, and a job. Of these two desires, Martha’s yearning for a child is the deepest. She tells us “I want a baby to hold more than anything else in the world!” (Act I, Scene 3, line 5) The great question facing her – and by extension the audience – is: who will Martha try to have a baby with? The beginning of Act II focuses on the character of Robert, whom Molly is very attracted to. We see, through his reckless gambling in Act II, that Robert is probably not going to be a reliable father. The problem is that although we the audience have seen him gambling his paycheque away, Martha has not: she is offstage during this scene. For the rest of the play, we must watch as her longing for a child obscures her judgement of Robert’s true character. paragraph (from the Ancient Greek παράγραφος paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home_tab">HomeTab</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

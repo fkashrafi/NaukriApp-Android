@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fahadkhanashrafi.naukriapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/welcomeimg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sliderbg"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_below="@id/welcomeimg"
+        android:id="@+id/welcome"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView"
+            style="@style/Hyperlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="Welcome To"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            style="@style/Hyperlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:text="Nokriya"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#00ffff" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+           android:id="@+id/contentScroll"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@color/colorGray"
+           android:padding="15dp"
+           android:paddingTop="15dp">
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:textAlignment="gravity"/>
+       </ScrollView>
+    </RelativeLayout>
+        <Button
+            android:id="@+id/BtnStarted"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Get started nokriya"
+            android:textAllCaps="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimaryDark"/>
+
+</RelativeLayout>

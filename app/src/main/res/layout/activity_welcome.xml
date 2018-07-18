@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fahadkhanashrafi.naukriapp.Welcome">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome: Hunain"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will get back to you soon with the great oportunaties of jobs."
+        android:textColor="#800000"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_marginTop="150dp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
